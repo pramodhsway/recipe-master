@@ -13,6 +13,10 @@
   }
 }
 
+.wd-background {
+  background-color: #1d2834;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
