@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:4300/api";
+const API_URL = "https://recipe-master-backend.onrender.com/api";
 
 const FETCH_ALL_USERS = `${API_URL}/all-users/`;
 const DELETE_USER = `${API_URL}/remove-users/`;

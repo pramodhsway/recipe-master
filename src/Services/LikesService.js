@@ -1,6 +1,6 @@
 
 import axios from "axios";
-const API_BASE = "http://localhost:4300/api";
+const API_BASE = "https://recipe-master-backend.onrender.com/api";
 const LIKES_API = `${API_BASE}/likes`;
 export const LikesService = async () => {
   const response = await axios.get(LIKES_API);

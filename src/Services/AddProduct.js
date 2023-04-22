@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:4300/api";
+const API_URL = "https://recipe-master-backend.onrender.com/api";
 
 const ADD_PRODUCT_URL = `${API_URL}/add-product`;
 const REMOVE_PRODUCT_URL = `${API_URL}/remove-product`;

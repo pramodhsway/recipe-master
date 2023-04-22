@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:4300/api";
+const API_URL = "https://recipe-master-backend.onrender.com/api";
 const IS_LIKED_URL = `${API_URL}/liked`;
 const ADD_LIKE_URL = `${API_URL}/add-like`;
 const REMOVE_LIKE_URL = `${API_URL}/remove-like`;
